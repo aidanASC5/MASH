@@ -10,7 +10,7 @@ function mash() {
         return"Input type of abode";
     }
     else{
-   return  "You will live in a "+ getHome() + ", and you will have " + getChildrenCount() + " children" +" and you'll drive a " +getCar() + ". Your wife's name will be " + nameOfSpouse() + " and you will make "+ salery() + "." + " You will live to the age of "+ age() + "and be a " + career() + "." ;
+   return  "You will live in a "+ getHome() + ", and you will have " + getChildrenCount() + " children" +" and you'll drive a " +getCar() + ". Your wife's name will be " + nameOfSpouse() + " and you will make "+ salery() + "." + " You will live to the age of "+ age() + " and be a " + career() + "." ;
 }
 
 }
@@ -55,10 +55,10 @@ function salery() {
     return array[random(array.length)];
 }
 function age() {
-    const array = [ "20","30","40","50","60","70","80","90","100","110"]
+    const array = [ "20","30","40","50","60","70","80","90","100","110"];
     return array[random(array.length)];
 }
 function career() {
-    const array = [ "Doctor","Paper Salesman","Spy","Lifeguard", "Soccer Coach","Jail Guard"]
+    const array = [ "Doctor","Paper Salesman","Spy","Lifeguard", "Soccer Coach","Jail Guard"];
     return array[random(array.length)];
 }
